@@ -56,7 +56,7 @@ cacheSolve <- function(X, ...) {
 		message("getting cached data")
 		return(M)
 	}
-	# if it is not, compute the inverse and store it for eventual later usage
+	# if stored inverse is null, compute the inverse and store it for eventual later usage
 	data <- X$get()
 	M <- solve(data, ...)
 	X$setInverse(M)
