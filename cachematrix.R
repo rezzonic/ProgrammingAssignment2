@@ -10,7 +10,7 @@
 ## if the inverse has already been computed
 ## gets it from cache
 
-
+## Mostly taken from the example "Caching the Mean of a Vector"
 
 ## this function creates a special matrix, which is a list containing
 ## a function to
